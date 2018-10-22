@@ -3,6 +3,7 @@
 
 package icc.agenda;
 import icc.util.*;
+//import java.lang.*;
 
 /**
  * Clase de uso donde se pueden crear un par de bases de datos y
@@ -36,7 +37,7 @@ public class UsoBaseDeDatosAgenda {
 
 	public static void main(String[] args) {
 		// TODO: Crear un par de BaseDeDatosAgenda y realizar algunas consultas.
-		
+
 		BaseDeDatosAgenda base1 = new BaseDeDatosAgenda (tabla1,TAM_NOMBRE,TAM_DIRECCION,TAM_TELEFONO);
 		BaseDeDatosAgenda base2 = new BaseDeDatosAgenda (tabla2,TAM_NOMBRE,TAM_DIRECCION,TAM_TELEFONO);
 		

@@ -8,7 +8,7 @@ import icc.agenda.*;
  * Interfaz para definir objetos que buscan otros que
  * satisfagan cierta condición.
  */
-public interface IBuscador {
+public interface Buscador {
 
 	/**
 	 * Método que indica si el objeto pasado como parámetro
@@ -16,6 +16,6 @@ public interface IBuscador {
 	 * @param reg es el registro de entrada
 	 * @return si <code>reg</code> tiene ese nombre.
 	 */
-	public boolean esEste(RegistroAgenda reg);
+	public boolean esEste(Object reg);
 
 }
