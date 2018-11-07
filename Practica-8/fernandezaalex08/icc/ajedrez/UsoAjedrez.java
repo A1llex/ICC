@@ -10,10 +10,14 @@ import java.util.Scanner;
 //una opcion de tu decirle a donde moverla y si  es posible moverla ahi
 //un get y set de la posicion 
 public class UsoAjedrez {
-	private Scanner sc;
 
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println(" AJEDREZ ");
+
+
 		UsoAjedrez interfaz = new UsoAjedrez();
 		interfaz.corre();
 	}

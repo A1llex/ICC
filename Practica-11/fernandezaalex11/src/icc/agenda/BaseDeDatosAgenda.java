@@ -50,6 +50,10 @@ public class BaseDeDatosAgenda {
 		}
 	}
 
+	public void agrega(RegistroAgenda reg){
+		tabla.agrega(reg)
+	}
+
 	public RegistroAgenda dameRegistroPorNombre (String nombre) {
 		// TODO: Usa BuscadorPorNombre y el método encuentra de ManejadorDeLista
 		// para encontrar el registro correcto dentro de la lista.

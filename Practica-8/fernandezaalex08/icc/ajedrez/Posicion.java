@@ -8,7 +8,7 @@ public class Posicion {
 	private char columna;
 	private int renglon;
 
-	public void setPosicion(char columna,int renglon){
+	public Posicion(char columna,int renglon){
 		this.columna=columna;
 		this.renglon=renglon;
 	}
@@ -21,15 +21,16 @@ public class Posicion {
 			throw new IllegalArgumentException("debe ser un renglon valido");
 		}
 	}
-	public char getColumna() {
- 		return columna;
-	}
 	public void setRenglon(int renglon) {
  		if ((renglon>=1)&&(renglon<=8)) {
 			this.renglon=renglon;
 		}else{
 			throw new IllegalArgumentException("Deba ser una columna valida");
 		}
+	}
+	
+	public char getColumna() {
+ 		return columna;
 	}
 	public int getRenglon() {
  		return renglon;
